@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Pokémons</title>
+	<link rel="stylesheet" href="./src/style.css"/>
+	<script type="module">
+		import App from "./src/App.js";
+	</script>
+</head>
+<body>
+	<div id="interface">
+		<header>
+			<h1>Pokémons</h1>
+			<form action="" id="search" onsubmit="return false">
+				<input type="text" name="mot" id="mot" placeholder="Recherche">
+				<button type="submit">Rechercher</button>
+			</form>
+		</header>
+		<footer><span>&copy; Web 3 : Dynamique</span><strong>Pokémons</strong></footer>
+		<div class="body" id="app"></div>
+	</div>
+</body>
+</html>
