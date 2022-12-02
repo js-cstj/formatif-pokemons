@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;700&display=swap');
+
+html {
+	height: 100%;
+	font-size: 16px;
+	font-family: 'Advent Pro', sans-serif;
+	--hue: 48;
+	--anti-hue: 221;
+	--jaune-pokemon: hsl(var(--hue), 100%, 50%);
+	--bleu-pokemon: hsl(var(--anti-hue, 100%, 50%));
+}
+body {
+	height: 100%;
+	margin: 0;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#interface {
+	min-height: 100%;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	& > header, & > footer {
+		padding: .5em 1em;
+		background-color: hsl(var(--hue), 100%, 50%);
+		display: flex;
+		justify-content: space-between;
+	}
+	& > header {
+		order: -1000;
+		h1 {
+			margin: 0;
+		}
+	}
+	& > footer {
+		order: 1000;
+		font-size: smaller;
+	}
+}
+
+#app {
+	padding: 1em;
+}
+#pokemons {
+	border: 3px solid hsl(var(--hue), 100%, 50%);
+	padding: 1em;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 300px);
+	gap: 1em;
+	div.pokemon {
+		color: hsl(221, 50%, 44%);
+		border: 3px solid black;
+		padding: 1em;
+		border-radius: .5em;
+		background-color: hsl(var(--anti-hue), 100%, 50%);
+		color:hsl(var(--hue), 100%, 50%);
+		display: flex;
+		flex-direction: column;
+		background-image: radial-gradient(circle at center 75%, 
+		hsl(var(--anti-hue), 100%, 90%) 20%, 
+		hsl(var(--anti-hue), 100%, 50%));
+		background-position: center bottom;
+		background-size: contain;
+		h2 {
+			margin: 0;
+			padding: 0;
+			font-size: 2rem;
+		}
+		div.image {
+			align-self: center;
+			img {
+				width: 160px;
+				height: 160px;
+				image-rendering: pixelated;
+				display: block;
+			}
+		}
+	}
+}

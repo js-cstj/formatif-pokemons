@@ -107,7 +107,7 @@ export default class App {
 		var img = resultat.appendChild(document.createElement("img"));
 		img.alt = alt;
 		if (image_url === "") {
-			img.src = "https://mboudrea.tim-cstj.ca/epreuve3/pokemons/pokeball.png";
+			img.src = "img/pokeball.png";
 		} else {
 			img.src = image_url;
 		}

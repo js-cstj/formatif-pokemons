@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="80"
+   height="80"
+   viewBox="0 0 80 80"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="pokeball.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     units="px"
+     inkscape:zoom="10.1125"
+     inkscape:cx="20.519159"
+     inkscape:cy="40"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid21" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path1406"
+       style="opacity:1;fill:#000000;fill-rule:evenodd"
+       d="M 40,29 A 11,11 0 0 1 51,40 11,11 0 0 1 40,51 11,11 0 0 1 29,40 11,11 0 0 1 40,29 Z M 40,4 A 36,36 0 0 0 4,40 36,36 0 0 0 40,76 36,36 0 0 0 76,40 36,36 0 0 0 40,4 Z" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-rule:evenodd"
+       d="M 68.652344,25.767578 A 32,32 0 0 1 72,40 32,32 0 0 1 40,72 32,32 0 0 1 13.408203,57.662109 l 14.75,-8.515625 A 15,15 0 0 0 40,55 15,15 0 0 0 55,40 15,15 0 0 0 53.873047,34.300781 Z"
+       id="path1404" />
+    <path
+       style="opacity:1;fill:#ff0000;fill-rule:evenodd"
+       d="m 40,8 a 32,32 0 0 1 26.652344,14.302734 l -14.78125,8.533204 A 15,15 0 0 0 40,25 15,15 0 0 0 25,40 15,15 0 0 0 26.152344,45.685547 L 11.363281,54.224609 A 32,32 0 0 1 8,40 32,32 0 0 1 40,8 Z"
+       id="path1402" />
+  </g>
+</svg>
