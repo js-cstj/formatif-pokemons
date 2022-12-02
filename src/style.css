@@ -11,37 +11,23 @@ body {
 
 #interface {
   min-height: 100%;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-rows: auto 1fr auto;
-      grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto 1fr auto;
 }
-
 #interface > header, #interface > footer {
-  padding: .5em 1em;
+  padding: 0.5em 1em;
   background-color: #EEE;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 #interface > header {
-  -webkit-box-ordinal-group: -999;
-      -ms-flex-order: -1000;
-          order: -1000;
+  order: -1000;
 }
-
 #interface > header h1 {
   margin: 0;
 }
-
 #interface > footer {
-  -webkit-box-ordinal-group: 1001;
-      -ms-flex-order: 1000;
-          order: 1000;
+  order: 1000;
   font-size: smaller;
 }
 
@@ -52,41 +38,26 @@ body {
 #pokemons {
   border: 3px solid orange;
   padding: 1em;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1em;
 }
-
 #pokemons div.pokemon {
   border: 3px solid black;
   padding: 1em;
-  border-radius: .5em;
+  border-radius: 0.5em;
   background-color: #ffe;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 #pokemons div.pokemon div.image {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
-
 #pokemons div.pokemon div.image img {
   width: 160px;
   height: 160px;
   -ms-interpolation-mode: nearest-neighbor;
-      image-rendering: -webkit-optimize-contrast;
       image-rendering: -moz-crisp-edges;
-      image-rendering: -o-pixelated;
       image-rendering: pixelated;
   display: block;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

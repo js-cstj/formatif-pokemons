@@ -7,7 +7,7 @@ export default class App {
 	 */
 	static main() {
 		var app = document.getElementById("app");
-		this.chargerJson('http://mboudrea.tim-cstj.ca/epreuve3/pokemon.php').then(donnees => {
+		this.chargerJson('https://mboudrea.tim-cstj.ca/epreuve3/pokemon.php').then(donnees => {
 			// console.log(donnees);
 			var h1 = app.appendChild(document.createElement("h1"));
 			h1.innerHTML = "Mes Pokémons";
@@ -20,7 +20,7 @@ export default class App {
 			// 	app.firstChild.remove();
 			// }
 			this.reset();
-			this.chargerJson('http://mboudrea.tim-cstj.ca/epreuve3/pokemon.php?mot='+mot).then(donnees => {
+			this.chargerJson('https://mboudrea.tim-cstj.ca/epreuve3/pokemon.php?mot='+mot).then(donnees => {
 				// console.log(donnees);
 				var h1 = app.appendChild(document.createElement("h1"));
 				h1.innerHTML = "Mes Pokémons trouvés";
@@ -107,7 +107,7 @@ export default class App {
 		var img = resultat.appendChild(document.createElement("img"));
 		img.alt = alt;
 		if (image_url === "") {
-			img.src = "http://mboudrea.tim-cstj.ca/epreuve3/pokemons/pokeball.png";
+			img.src = "https://mboudrea.tim-cstj.ca/epreuve3/pokemons/pokeball.png";
 		} else {
 			img.src = image_url;
 		}
