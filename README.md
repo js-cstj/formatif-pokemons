@@ -1,4 +1,14 @@
-# Citations
+<!-- 
+  ______ ____  _____  __  __       _______ _____ ______ 
+ |  ____/ __ \|  __ \|  \/  |   /\|__   __|_   _|  ____|
+ | |__ | |  | | |__) | \  / |  /  \  | |    | | | |__   
+ |  __|| |  | |  _  /| |\/| | / /\ \ | |    | | |  __|  
+ | |   | |__| | | \ \| |  | |/ ____ \| |   _| |_| |     
+ |_|    \____/|_|  \_\_|  |_/_/    \_\_|  |_____|_|     
+                                                        
+-->
+
+# Pokémons
 Reproduisez l'application montrée dans la démo du professeur.
 
 ## Fonctionnement
@@ -9,11 +19,11 @@ Les fichiers `resultatAlea.html` et `resultatRecherche.html` présentent une ver
 
 ## Les fonctions
 Pour l'épreuve vous devez créer les 5 fonctions suivantes :
-- html_listePokemons
-- html_pokemon
-- html_nom
-- html_description
-- html_image
+- `html_listePokemons`
+- `html_pokemon`
+- `html_nom`
+- `html_description`
+- `html_image`
 
 **Note**: Si vous avez de la difficulté avec les fonctions, vous pouvez sauver les meubles en complétant l'épreuve complètement dans la fonction `main`
 
@@ -22,10 +32,10 @@ Les données doivent provenir de l'adresse suivante :
 - https://mboudrea.tim-cstj.ca/epreuve3/pokemon.php
 - https://mboudrea.tim-cstj.ca/epreuve3/pokemon.php?mot=pikachu _(à modifier en fonction de la recherche demandée)_
 
-Vous pouvez vous référer aux fichiers `exempleAlea.json` et `exempleRecherche.json` pour la structure du document retourné par l'API. Vous __ne devez pas__ utiliser ces fichiers dans la version remise.
+Vous pouvez vous référer aux fichiers `_assets/exempleAlea.json` et `_assets/exempleRecherche.json` pour la structure du document retourné par l'API. Vous __ne devez pas__ utiliser ces fichiers dans la version remise.
 
 ## Le SCSS
-L'imbrication d'une partie du fichier `style.scss` a été omise. Vous devez refaire l'imbrication des règles qui se trouvent à la fin du fichier.
+L'imbrication d'une partie du fichier `css/style.scss` a été omise. Vous devez refaire l'imbrication des règles qui se trouvent à la fin du fichier.
 
 ## Les tâches
 1. Ajouter la fonction responsable de l'acquisition des données provenant de l'API;

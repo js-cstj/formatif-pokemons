@@ -1,0 +1,26 @@
+{
+    "type": "recherche",
+    "mot": "pik",
+    "compte": 3,
+    "url": "https:\/\/mboudrea.tim-cstj.ca\/epreuve3\/pokemon.php",
+    "pokemons": [
+        {
+            "nom": "Pikachu",
+            "description": "Il lui arrive de remettre d'aplomb<br\/>un Pikachu allié en lui envoyant<br\/>une décharge électrique.",
+            "id": "25",
+            "image_url": "https:\/\/mboudrea.tim-cstj.ca\/epreuve3\/pokemons\/25.png"
+        },
+        {
+            "nom": "Pomdepik",
+            "description": "Il ressemble à une pomme de pin.<br\/>Sa carapace le protège des Pokémon<br\/>Oiseaux qui le picorent par erreur.",
+            "id": "204",
+            "image_url": "https:\/\/mboudrea.tim-cstj.ca\/epreuve3\/pokemons\/204.png"
+        },
+        {
+            "nom": "Triopikeur",
+            "description": "Ses trois têtes creusent le sol à<br\/>tour de rôle. Il peut atteindre des<br\/>profondeurs de 100 kilomètres.",
+            "id": "51",
+            "image_url": "https:\/\/mboudrea.tim-cstj.ca\/epreuve3\/pokemons\/51.png"
+        }
+    ]
+}

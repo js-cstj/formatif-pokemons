@@ -1,0 +1,37 @@
+{
+    "type": "alea",
+    "compte": 5,
+    "url": "https:\/\/mboudrea.tim-cstj.ca\/epreuve3\/pokemon.php",
+    "pokemons": [
+        {
+            "nom": "Fragilady",
+            "description": "La fleur sur sa tête a des propriétés<br\/>relaxantes. Elle se fane si on ne s'en<br\/>occupe pas avec attention.",
+            "id": "549",
+            "image_url": ""
+        },
+        {
+            "nom": "Mastouffe",
+            "description": "Il est spécialisé dans l'assistance aux<br\/>personnes perdues en mer ou en<br\/>montagne. Il est tr\u00e8s intelligent.",
+            "id": "508",
+            "image_url": ""
+        },
+        {
+            "nom": "Gigalithe",
+            "description": "Il amplifie dans son corps l'énergie du<br\/>soleil absorbée par ses cristaux orangés<br\/>et la projette par la bouche.",
+            "id": "526",
+            "image_url": ""
+        },
+        {
+            "nom": "Ymphect",
+            "description": "Son corps est dur comme la pierre<br\/>souterraine. Il file comme une<br\/>fusée en expulsant des gaz.",
+            "id": "247",
+            "image_url": "https:\/\/mboudrea.tim-cstj.ca\/epreuve3\/pokemons\/247.png"
+        },
+        {
+            "nom": "Galifeu",
+            "description": "Ce maître du coup de pied peut donner<br\/>10 coups par seconde. Ses cris aigus<br\/>intimident l'ennemi.",
+            "id": "256",
+            "image_url": "https:\/\/mboudrea.tim-cstj.ca\/epreuve3\/pokemons\/256.png"
+        }
+    ]
+}
