@@ -1,3 +1,8 @@
+@charset "UTF-8";
+/***************************************************************
+NE PAS TOUCHER À CETTE SECTION.
+↓↓↓ L'ÉPREUVE EST À LA FIN DE CE DOCUMENT ↓↓↓
+****************************************************************/
 @import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;700&display=swap");
 html {
   height: 100%;
@@ -46,6 +51,9 @@ body {
   padding: 1em;
 }
 
+/***************************************************************
+↓↓↓ L'ÉPREUVE COMMENCE ICI ↓↓↓
+****************************************************************/
 #pokemons {
   border: 3px solid hsl(var(--hue), 100%, 50%);
   padding: 1em;
@@ -53,6 +61,7 @@ body {
   grid-template-columns: repeat(auto-fit, 300px);
   gap: 1em;
 }
+
 #pokemons div.pokemon {
   color: hsl(221deg, 50%, 44%);
   border: 3px solid black;
@@ -66,14 +75,17 @@ body {
   background-position: center bottom;
   background-size: contain;
 }
+
 #pokemons div.pokemon h2 {
   margin: 0;
   padding: 0;
   font-size: 2rem;
 }
+
 #pokemons div.pokemon div.image {
   align-self: center;
 }
+
 #pokemons div.pokemon div.image img {
   width: 160px;
   height: 160px;
