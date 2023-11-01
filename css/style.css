@@ -30,7 +30,8 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
-#interface > header, #interface > footer {
+#interface > header,
+#interface > footer {
   padding: 0.5em 1em;
   background-color: hsl(var(--hue), 100%, 50%);
   display: flex;
@@ -41,6 +42,18 @@ body {
 }
 #interface > header h1 {
   margin: 0;
+}
+#interface a {
+  background-color: red;
+  color: inherit;
+  text-decoration: none;
+}
+#interface a :hover {
+  background-color: pink;
+  text-decoration: underline;
+}
+#interface a.important {
+  font-weight: bold;
 }
 #interface > footer {
   order: 1000;
@@ -63,7 +76,7 @@ body {
 }
 
 #pokemons div.pokemon {
-  color: hsl(221deg, 50%, 44%);
+  color: hsl(221, 50%, 44%);
   border: 3px solid black;
   padding: 1em;
   border-radius: 0.5em;
@@ -89,8 +102,6 @@ body {
 #pokemons div.pokemon div.image img {
   width: 160px;
   height: 160px;
-  -ms-interpolation-mode: nearest-neighbor;
-      image-rendering: -moz-crisp-edges;
-      image-rendering: pixelated;
+  image-rendering: pixelated;
   display: block;
-}/*# sourceMappingURL=style.css.map */
+}
